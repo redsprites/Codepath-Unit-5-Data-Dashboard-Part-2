@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+.summary-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #5f5f5f;
+  width: 30%;
+  text-align: center;
+  margin: 5px;
+}
+
+.accordion {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  background-color: #534444;
+}
+
+.accordion-header {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.accordion-content {
+  border-top: 1px solid #eee;
+  padding: 10px;
+}
+
+.model-item {
+  border: 1px solid #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background-color: #747373;
+}
+
+.detail-item {
+  margin-left: 20px;
+  padding: 10px;
+  border-left: 2px solid #007bff;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+/* Search and filter styles */
+.search-filter-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px; /* Adjust the space between search and filter inputs */
+}
+
+.search-input, .filter-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: border-color 0.3s;
+}
+
+.search-input:focus, .filter-dropdown:focus {
+  border-color: #007bff;
+}
+
+.search-input {
+  width: 240px; /* Adjust based on your preference */
+}
+
+.filter-dropdown {
+  cursor: pointer;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
