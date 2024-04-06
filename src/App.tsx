@@ -31,7 +31,7 @@ function App() {
   return (
     <div>
       <h1>Carbon Emission Calculator for Cars</h1>
-      <Link to="/emission-visualization">Go to Emission Visualization</Link>
+      <Link to="/emission-visualization">Go to Brand Visualization</Link>
       {brands.length > 0 && <Statistics brands={brands} />}
       <div  className="search-filter-container">
       <input

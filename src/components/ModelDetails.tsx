@@ -16,7 +16,10 @@ const ModelDetails: React.FC<ModelDetailsProps> = ({ model }) => {
   return (
     <div className="accordion-content" style={{ marginLeft: '20px', padding: '10px', borderLeft: '2px solid #ccc' }}>
       <div onClick={toggleDetails} style={{ cursor: 'pointer' }}>
-        {model.data.attributes.name} - {model.data.attributes.year}
+       <>Model Name </> - {model.data.attributes.name}  
+        <br />
+        <>Year</> - 
+        {model.data.attributes.year}
       </div>
       {showDetails && <Link to={`/models/${model.data.id}/emissions`}>View Emissions</Link>}
     </div>
