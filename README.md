@@ -4,7 +4,8 @@
 
 Codepath Project Unit 6 Data Dashboard Part 2.
 
-
+## Notes:
+    Unfortunately I hit the monthly limit for the API. so I changed my original plan of the visulization to just display number of models per Brand.
 ## Installation 
 To run this project locally, follow these steps:
 ``` bash 
